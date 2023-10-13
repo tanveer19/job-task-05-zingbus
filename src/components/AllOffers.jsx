@@ -30,7 +30,6 @@ const AllOffers = () => {
         />
       </div>
       <Link to="Offers">
-        {" "}
         <h3 className="text-3xl font-semibold text-center my-6">
           Explore All Offers
         </h3>
