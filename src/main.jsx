@@ -6,6 +6,7 @@ import Main from "./components/Main.jsx";
 import ErrorPage from "./error-page";
 import Home from "./components/Home";
 import AllOffers from "./components/AllOffers";
+import BusTickets from "./components/BusTickets";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
       {
         path: "/Offers",
         element: <AllOffers></AllOffers>,
+      },
+      {
+        path: "/bus-tickets",
+        element: <BusTickets></BusTickets>,
       },
     ],
   },
