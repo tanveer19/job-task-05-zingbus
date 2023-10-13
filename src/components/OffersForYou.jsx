@@ -5,6 +5,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
 import "swiper/css";
 import "swiper/css/pagination";
+import "swiper/css/navigation";
 
 import "./OffersForYou.css";
 
@@ -18,6 +19,7 @@ export default function App() {
       <Swiper
         slidesPerView={4}
         spaceBetween={20}
+        navigation={true}
         pagination={{
           clickable: true,
         }}
