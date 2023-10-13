@@ -4,6 +4,8 @@ import AllOffers from "./AllOffers";
 import OffersForYou from "./OffersForYou";
 import Download from "./Download";
 import Guarantee from "./Guarantee";
+import Premium from "./Premium";
+import Travel from "./Travel";
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
       <OffersForYou></OffersForYou>
       <Download></Download>
       <Guarantee></Guarantee>
+      <Premium></Premium>
+      <Travel></Travel>
     </div>
   );
 };
